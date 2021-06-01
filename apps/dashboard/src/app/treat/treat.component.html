@@ -1,0 +1,17 @@
+<div class="container">
+  <div class="col-50" layout="row" layout-align="center center">
+    <dessert-treat-list
+      [treats]="allTreats$ | async"
+      (selected)="selectTreat($event)"
+      (deleted)="deleteTreat($event)"
+    ></dessert-treat-list>
+  </div>
+  <div class="col-50" layout="row" layout-align="center center">
+    <dessert-treat-details
+      [treat]="selectedTreat$ | async"
+      (saved)="saveTreat($event)"
+      (cancelled)="cancel()"
+      [form]="form"
+    ></dessert-treat-details>
+  </div>
+</div>

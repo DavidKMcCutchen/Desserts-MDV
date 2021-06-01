@@ -1,0 +1,14 @@
+{
+  "treats": [
+    {
+      "id": 1,
+      "name": "Choco Taco",
+      "description": "Authentic Mexican Dessert Imported from the Original Taco Bell (Established 1876 Mexico City, Mexico)"
+    },
+    {
+      "id": 2,
+      "name": "Ice Cream",
+      "description": "Yummy"
+    }
+  ]
+}
